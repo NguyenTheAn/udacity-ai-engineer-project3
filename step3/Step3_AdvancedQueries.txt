@@ -1,0 +1,236 @@
+1, search=Mike Montoya
+{
+  "@odata.context": "https://ligirksearchservice.search.windows.net/indexes('courses-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 0.10688503,
+      "Key": "ms-learn000a0d57-a0fe-4386-829c-99074d1b3b9b",
+      "description": "Find out about automated testing that proves your code to be maintainable, understandable, and functioning without repetitive manual testing.",
+      "duration": 82,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "azure-devops",
+      "rating_average": 4.73,
+      "rating_count": 3301,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Run quality tests in your build pipeline by using Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ],
+      "outputEntities": [
+        {
+          "name": "Mike Montoya",
+          "description": "Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events."
+        }
+      ]
+    }
+  ]
+}
+2, search=Robert
+{
+  "@odata.context": "https://ligirksearchservice.search.windows.net/indexes('courses-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 0.25533006,
+      "Key": "ms-learn1a89d3f4-96ff-4dd1-a660-2a18497ce181",
+      "description": "DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. Discover the first two foundation pillars of DevOps: Culture and Lean Product.",
+      "duration": 25,
+      "instructor": "Robert Gillis",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 3395,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Introduce the foundation pillars of DevOps: Culture and Lean Product",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ],
+      "outputEntities": [
+        {
+          "name": "Robert Gillis",
+          "description": "Robert is our GIS specialist in charge of making beautiful maps for our users. He has been with the company for 8 years and enjoys hiking, fishing, and any other outdoor activity."
+        }
+      ]
+    }
+  ]
+}
+3, search=*&$select=publicationame
+{
+  "@odata.context": "https://ligirksearchservice.search.windows.net/indexes('library-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "publicationName": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "EURASIP Journal on Image and Video Processing"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "SpringerPlus"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Complex Adaptive Systems Modeling"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Human-centric Computing and Information Sciences"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Human-centric Computing and Information Sciences"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Big Data"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Big Data"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationName": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Trust Management"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Big Data"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "EURASIP Journal on Image and Video Processing"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Big Data"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Big Data"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Brain Informatics"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Brain Informatics"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Applied Network Science"
+    }
+  ]
+}
+4, search=*&$select=publicationDate
+{
+  "@odata.context": "https://ligirksearchservice.search.windows.net/indexes('library-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2018-11-27"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2021-01-14"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2018-05-09"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2019-05-01"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2015-12-01"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2016-02-03"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2015-09-07"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2018-09-22"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2019-02-28"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2019-06-06"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2019-10-31"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2020-02-28"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2015-09-01"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2020-09-21"
+    },
+    {
+      "@search.score": 1,
+      "publicationDate": "2020-11-16"
+    }
+  ]
+}
+5, search="Augmented reality virtual glasses"&$select=doi
+{
+  "@odata.context": "https://ligirksearchservice.search.windows.net/indexes('library-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 38.383778,
+      "doi": "10.1186/s13640-018-0373-8"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+1, Query string: search=* $filter=role eq 'administrator'
+result: 
+{
+  "@odata.context": "https://ligirksearchservice.search.windows.net/indexes('courses-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 2.4176445,
+      "PartitionKey": "ms-learn",
+      "description": "Explore the first two capabilities in the DevOps taxonomy, Continuous Planning and Continuous Integration.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 2061,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Analyze DevOps Continuous Planning and Continuous Integration",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/analyze-devops-continuous-planning-intergration/?WT.mc_id=api_CatalogApi",
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ]
+}
+
+2, Query string: search=* $filter=source eq 'MS Learn'&$select=description
+results:
+{
+  "@odata.context": "https://ligirksearchservice.search.windows.net/indexes('courses-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 0.0032898514,
+      "description": "Explore the first two capabilities in the DevOps taxonomy, Continuous Planning and Continuous Integration."
+    }
+  ]
+}
+
+3, Query string: search="DevOps" -flatlet&searchMode=all
+results: {
+  "@odata.context": "https://ligirksearchservice.search.windows.net/indexes('courses-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 7.1031246,
+      "PartitionKey": "ms-learn",
+      "description": "Explore the first two capabilities in the DevOps taxonomy, Continuous Planning and Continuous Integration.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 2061,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Analyze DevOps Continuous Planning and Continuous Integration",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/analyze-devops-continuous-planning-intergration/?WT.mc_id=api_CatalogApi",
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ]
+}
+
+4, Query string: search=*&facet=title
+results: {
+  "@odata.context": "https://ligirksearchservice.search.windows.net/indexes('courses-index')/$metadata#docs(*)",
+  "@search.facets": {
+    "title": [
+      {
+        "count": 1,
+        "value": "Analyze DevOps Continuous Planning and Continuous Integration"
+      }
+    ]
+  },
+  "value": [
+    {
+      "@search.score": 1,
+      "PartitionKey": "ms-learn",
+      "description": "Explore the first two capabilities in the DevOps taxonomy, Continuous Planning and Continuous Integration.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 2061,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Analyze DevOps Continuous Planning and Continuous Integration",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/analyze-devops-continuous-planning-intergration/?WT.mc_id=api_CatalogApi",
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ]
+}
+
+5, Query string: search=Integration $filter=product eq 'azure'
+results:
+{
+  "@odata.context": "https://ligirksearchservice.search.windows.net/indexes('courses-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 7.0177135,
+      "PartitionKey": "ms-learn",
+      "description": "Explore the first two capabilities in the DevOps taxonomy, Continuous Planning and Continuous Integration.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 2061,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Analyze DevOps Continuous Planning and Continuous Integration",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/analyze-devops-continuous-planning-intergration/?WT.mc_id=api_CatalogApi",
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ]
+}
+

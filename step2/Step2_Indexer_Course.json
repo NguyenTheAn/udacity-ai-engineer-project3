@@ -1,0 +1,12 @@
+{
+  "name": "indexer1655524598893",
+  "dataSourceName": "",
+  "targetIndexName": "",
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": null,
+    "maxFailedItemsPerBatch": null
+  },
+  "fieldMappings": [],
+  "outputFieldMappings": []
+}

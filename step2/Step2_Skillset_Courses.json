@@ -1,0 +1,36 @@
+{
+  "@odata.context": "https://azurecognitivesearchligirk.search.windows.net/$metadata#skillsets/$entity",
+  "@odata.etag": "\"0x8DA50D89A4964A0\"",
+  "name": "course-skillset",
+  "description": "Skillset created from the portal. skillsetName: course-skillset; contentField: description; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+  "skills": [
+    {
+      "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+      "name": "#1",
+      "description": null,
+      "context": "/document/description",
+      "defaultLanguageCode": "en",
+      "maxKeyPhraseCount": null,
+      "modelVersion": null,
+      "inputs": [
+        {
+          "name": "text",
+          "source": "/document/description"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "keyPhrases",
+          "targetName": "keyphrases"
+        }
+      ]
+    }
+  ],
+  "cognitiveServices": {
+    "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+    "description": "/subscriptions/21c53bc7-9f96-4753-9901-99cd641ad4e7/resourceGroups/aind-198561/providers/Microsoft.CognitiveServices/accounts/azurecognitiveservicesligirk",
+    "key": "5050943e8be04ca098d2f72d0dc2a3f1"
+  },
+  "knowledgeStore": null,
+  "encryptionKey": null
+}
